@@ -38,7 +38,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
- 
+
 
 public class App extends Application {
     TableView<modelDatabase> tableView = new TableView<modelDatabase>();
@@ -62,13 +62,13 @@ public class App extends Application {
       //========================================================================
         lblData    = new Label("FORM DATA");
         lblTitle   = new Label();
-        lblNK     = new Label("NK");
+        lblNK     = new Label("NOMOR KAMAR");
         lblNAMA    = new Label("NAMA");
         lblTELPON = new Label("TELPON");
         lblSTATUS  = new Label("STATUS");
         lblCari    = new Label("CARI DATA :");
         txtInfo    = new Text("No data");
-        tblColumn1 = new TableColumn("NK");
+        tblColumn1 = new TableColumn("NOMOR KAMAR");
         tblColumn2 = new TableColumn("NAMA");
         tblColumn3 = new TableColumn("TELPON");
         tblColumn4 = new TableColumn("STATUS");
@@ -85,7 +85,7 @@ public class App extends Application {
         panehbox   = new HBox(5);
         searchbox  = new HBox(5);
         tblView    = new TableView();
-        btnAdd     = new Button("ADD");
+        btnAdd     = new Button("INSERT");
         btnUpdate  = new Button("UPDATE");
         btnDelete  = new Button("DELETE");
         btnClear   = new Button("CLEAR");
@@ -205,7 +205,8 @@ public class App extends Application {
                 listData.add(modelDb);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
+            // Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Connection failed!!!");
         }
             return listData;
            

@@ -116,7 +116,7 @@ public class App extends Application {
         lblTitle.setText("DATABASE KOSSAN");
         // lblTitle.setUnderline(true);
         lblTitle.setPadding(new Insets(10));
-        lblTitle.setFont(Font.font("Arial Black", FontWeight.MEDIUM, 22));
+        lblTitle.setFont(Font.font("Arial Black", FontWeight.BOLD, 22));
         lblTitle.setAlignment(Pos.CENTER);
        
         lblNK.setPrefSize(100, 30);

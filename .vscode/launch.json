@@ -6,20 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch SimpleDatabaseFX",
-            "request": "launch",
-            "mainClass": "SimpleDatabaseFX",
-            "projectName": "SimpleDatabaseFX_42ac0fc9"
-        },
-        {
-            "type": "java",
-            "name": "Launch SimpleDatabaseFX",
-            "request": "launch",
-            "mainClass": "simpledatabasefx.SimpleDatabaseFX",
-            "projectName": "SimpleDatabaseFX_42ac0fc9"
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -29,8 +15,8 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
-            "vmArgs": "--module-path C:/Users/Samuel/Downloads/openjfx-17.0.1_windows-x64_bin-sdk/javafx-sdk-17.0.1/lib --add-modules javafx.controls, javafx.fxml",
-            "projectName": "SimpleDatabaseFX_42ac0fc9"
+            "vmArgs": "--module-path C:/Users/Samuel/Downloads/openjfx-17.0.1_windows-x64_bin-sdk/javafx-sdk-17.0.1/lib --add-modules javafx.controls",
+            "projectName": "OOP-GUI_8bc40b4c"
         }
     ]
 }
